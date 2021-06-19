@@ -65,6 +65,14 @@ namespace UserRegistrationProblem_Using_Regex
             else
                 Console.WriteLine(NumericPassword + " is Invalid");
         }
+        public void validateSpecialcarPassword(string specialCarPassword)
+        {
+            string stringForNumericPassword = "^([a-zA-Z0-9])*[!@#$%^&*]{1}([a-zA-Z0-9])*$";
+            if (Regex.IsMatch(specialCarPassword, stringForNumericPassword))
+                Console.WriteLine(specialCarPassword + " is Valid");
+            else
+                Console.WriteLine(specialCarPassword + " is Invalid");
+        }
     }
 }
 

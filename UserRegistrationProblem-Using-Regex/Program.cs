@@ -18,6 +18,7 @@ namespace UserRegistrationProblem_Using_Regex
             validateUser.validatePassword("pampa@1234");
             validateUser.validateUperCasePassword("Pampa@1234");
             validateUser.validateNumericPassword("pampap33451");
+            validateUser.validateSpecialcarPassword("pampa@3345");
             Console.ReadKey();
         }
     }
