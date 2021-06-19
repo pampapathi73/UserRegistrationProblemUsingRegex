@@ -16,6 +16,7 @@ namespace UserRegistrationProblem_Using_Regex
             validateUser.validateEmailId("pampapathik32@gmail.com");
             validateUser.validateMobileNumber("9845820686");
             validateUser.validatePassword("pampa@1234");
+            validateUser.validateUperCasePassword("Pampa@1234");
             Console.ReadKey();
         }
     }
