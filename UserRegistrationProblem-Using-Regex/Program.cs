@@ -13,6 +13,7 @@ namespace UserRegistrationProblem_Using_Regex
             validateUser.validateFirstName("Pampapathi");
             // validateUser.validateFirstName("Pampapathi");
             validateUser.validateLastName("Reddy");
+            validateUser.validateEmailId("pampapathik32@gmail.com");
             Console.ReadKey();
         }
     }
