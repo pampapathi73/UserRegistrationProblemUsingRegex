@@ -12,6 +12,7 @@ namespace UserRegistrationProblem_Using_Regex
             UserRegistration validateUser = new UserRegistration();
             validateUser.validateFirstName("Pampapathi");
             // validateUser.validateFirstName("Pampapathi");
+            validateUser.validateLastName("Reddy");
             Console.ReadKey();
         }
     }
