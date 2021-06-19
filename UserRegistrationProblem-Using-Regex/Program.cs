@@ -19,6 +19,11 @@ namespace UserRegistrationProblem_Using_Regex
             validateUser.validateUperCasePassword("Pampa@1234");
             validateUser.validateNumericPassword("pampap33451");
             validateUser.validateSpecialcarPassword("pampa@3345");
+            validateUser.validateAllTypeEmail("pampapathi25@gmail.com");
+            validateUser.validateAllTypeEmail("pampapathi5526@gmail.com");
+            validateUser.validateAllTypeEmail("pampapathi+36@gmail.com");
+            validateUser.validateAllTypeEmail("reddy_2004@gmail.com");
+
             Console.ReadKey();
         }
     }
