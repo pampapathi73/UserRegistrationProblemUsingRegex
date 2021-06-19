@@ -15,6 +15,7 @@ namespace UserRegistrationProblem_Using_Regex
             validateUser.validateLastName("Reddy");
             validateUser.validateEmailId("pampapathik32@gmail.com");
             validateUser.validateMobileNumber("9845820686");
+            validateUser.validatePassword("pampa@1234");
             Console.ReadKey();
         }
     }
