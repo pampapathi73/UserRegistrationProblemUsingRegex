@@ -17,6 +17,7 @@ namespace UserRegistrationProblem_Using_Regex
             validateUser.validateMobileNumber("9845820686");
             validateUser.validatePassword("pampa@1234");
             validateUser.validateUperCasePassword("Pampa@1234");
+            validateUser.validateNumericPassword("pampap33451");
             Console.ReadKey();
         }
     }
